@@ -18,6 +18,7 @@ public class AppTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(45,
 				TimeUnit.SECONDS);
+		System.out.println("Initialize the WebDriver");
 		String title = "Meet Guru99";
 		String altTitle = driver.getTitle();
 		if(altTitle.contains(title)){
