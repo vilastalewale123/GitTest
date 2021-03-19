@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-//To Test the github configuration you will rock
+//To Test the github configuration you will rock Vilas jenkins
 public class AppTest {
 	public WebDriver driver;
 	
